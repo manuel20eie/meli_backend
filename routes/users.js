@@ -17,6 +17,7 @@ router.get("/", verifyAuth, async (req, res) => {
 
 router.get("/restrictions", verifyAuth, async (req, res) => {
   let decoded;
+  // Condition added only for the purpose of facilitating the review of the challenge
   if (process.env.IGNORE_AUTHENTICATION === "true") {
     decoded = req.body;
   } else {
@@ -38,6 +39,7 @@ router.get("/restrictions", verifyAuth, async (req, res) => {
 
 router.get("/purchases", verifyAuth, async (req, res) => {
   let decoded;
+  // Condition added only for the purpose of facilitating the review of the challenge
   if (process.env.IGNORE_AUTHENTICATION === "true") {
     decoded = req.body;
   } else {

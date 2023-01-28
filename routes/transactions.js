@@ -8,6 +8,7 @@ require("dotenv").config();
 
 router.get("/", verifyAuth, async (req, res) => {
   let decoded;
+  // Condition added only for the purpose of facilitating the review of the challenge
   if (process.env.IGNORE_AUTHENTICATION === "true") {
     decoded = req.body;
   } else {

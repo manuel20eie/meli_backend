@@ -1,0 +1,19 @@
+{
+  "name": "meli_backend",
+  "version": "1.0.0",
+  "description": "backend for meli challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuel20eie/meli_backend.git"
+  },
+  "author": "Manuel Uzcátegui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuel20eie/meli_backend/issues"
+  },
+  "homepage": "https://github.com/manuel20eie/meli_backend#readme"
+}
